@@ -18,6 +18,7 @@ import resetStyles from './styles/reset.css';
 import appStyles from './styles/app.css';
 import {Layout} from '~/components/Layout';
 
+
 // This is important to avoid re-fetching root queries on sub-navigations
 export const shouldRevalidate = ({formMethod, currentUrl, nextUrl}) => {
   // revalidate when a mutation is performed e.g add to cart, login...
